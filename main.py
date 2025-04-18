@@ -17,7 +17,7 @@ interval_between_messages = 60  # Seconds between each notification message
 account_sid = '<accountId>'  # Twilio account SID
 auth_token = '<acountSecret>'  # Twilio auth token
 client = Client(account_sid, auth_token)  # Twilio client initialization
-twilio_contact_number = "+16814334347"  # Twilio phone number used for sending SMS
+twilio_contact_number = "<twillio phone number>"  # Twilio phone number used for sending SMS
 
 # RCB tickets booking page URL
 rcb_tickets_page_url = "https://shop.royalchallengers.com/ticket"
